@@ -38,9 +38,9 @@
 	    <textarea name="editor1" id="editor1" placeholder="Nội dung bài viết" rows="10" cols="80" >
 	 		  ${index_content!=null?index_content:editArticle.content } 
 	    </textarea>
-	    <div style="margin-top: 25px">
-	    	<a href="/" class="btn-cancel" type="button">Home</a>
-	    	<input type="submit" class="btn-submit" value="OK"></input>
+	    <div style="margin-top: 25px;text-align:center">
+	  
+	    	<input style="background:#0087d6" type="submit" class="btn-submit" value="APPLY"></input>
 	    </div>
 	    </form>
     	
