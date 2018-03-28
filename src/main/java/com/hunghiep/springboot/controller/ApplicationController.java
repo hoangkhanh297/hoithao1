@@ -72,7 +72,7 @@ public class ApplicationController {
 	public String login(@RequestParam String editor1, @RequestParam String subtext, @RequestParam String id) {
 		
 		String sub=subtext;
-		Article article = new Article(sub,"nhà báo",editor1,new Date());
+		Article article = new Article(sub,"admin",editor1,new Date());
 		if(!id.equals(""))
 		{
 			article.setId(Long.parseLong(id));

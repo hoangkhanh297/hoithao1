@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 
-@Entity(name="Index")
+@Entity(name="t_index")
 public class Index {
 	@Id
 	private long id;

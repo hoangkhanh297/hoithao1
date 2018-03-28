@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
-@Entity(name="Article")
+@Entity(name="t_article")
 public class Article {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

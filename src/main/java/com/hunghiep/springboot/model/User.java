@@ -4,7 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 
-@Entity(name="Account")
+@Entity(name="t_account")
 public class User {
 	@Id
 	private String username;
