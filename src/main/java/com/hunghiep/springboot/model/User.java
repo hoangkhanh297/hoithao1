@@ -1,8 +1,6 @@
 package com.hunghiep.springboot.model;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
-
 
 @Entity(name="t_account")
 public class User {
@@ -28,16 +26,9 @@ public class User {
 		this.password = password;
 	}
 	public User()
-	{
-		
-	}
+	{}
 	@Override
 	public String toString() {
 		return "User [username="+username+", password="+password+"]";
 	}
-
-
-
-	
-	
 }
